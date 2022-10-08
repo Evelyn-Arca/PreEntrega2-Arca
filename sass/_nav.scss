@@ -1,0 +1,30 @@
+header{
+    background-color: violet;
+    display: grid;
+    justify-content: center;
+
+    nav{
+      ul{
+        display: grid;
+        flex-direction: row;
+        list-style-type: none;
+        justify-content: space-between;
+
+        li{
+            list-style-type: none;
+            display: inline-block;
+            font-style: oblique;
+            font-weight: bolder;
+            font-size: 25px;
+            text-align: center;
+
+            a{
+                text-decoration: none;
+                color: black;
+                font-size: larger;
+            }
+        }
+       }
+
+    }      
+}
